@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product-page</title>
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+ 
+<body>
+
+  <div class="screen__overlay"></div>
+  <!-- ===================== OFFCANVAS AREA START ===================== -->
+  <div class="offcanvas-area">
+    <div class="menu-close">
+      <i class="far fa-times"></i>
+    </div>
+    <div class="offcanvas-menu">
+      <div class="main-menu">
+        <ul class="d-block aside_ul">
+          <li><a href="#"><img src="assets/img/header_icon1.svg" alt=""> home</a></li>
+            <li>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      <img src="assets/img/header_icon2.svg" alt="" class="header_icon2">
+                      produse
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <ul class="toggle__menu">
+                        <li><a href="#">SNACKS</a></li>
+                        <li><a href="#">NAPOLITANE</a></li>
+                        <li><a href="#">BISCUITI</a></li>
+                        <li><a href="#">CEREALE</a></li>
+                        <li><a href="#">CHIPSURI</a></li>
+                        <li><a href="#">ENERGIZANT</a></li>
+                        <li><a href="#">SUCURI NATURALE</a></li>
+                        <li><a href="#">BERE</a></li>
+                        <li><a href="#">ОТЕТ</a></li>
+                        <li><a href="#">SOSURI</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="#"><img src="assets/img/header_icon3.svg" alt=""> companie</a></li>
+            <li><a href="#"><img src="assets/img/header_icon4.svg" alt=""> NOUTĂȚI</a></li>
+            <li><a href="#"><img src="assets/img/header_icon5.svg" alt=""> DISTRIBUIRE</a></li>
+            <li><a href="#"><img src="assets/img/header_icon6.svg" alt=""> MAGAZIN ONLINE</a></li>
+            <li><a href="#"><img src="assets/img/footer_phone.svg" alt=""> CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="offcanvas-overlay"></div>
+  <!-- ===================== OFFCANVAS AREA END ===================== -->
+
+  <!-- ===================== HEADER AREA START ===================== -->
+  <header id="header__area" class="header__area header__area2">
+    <div class="container">
+      <div class="header__wrap">
+        <div class="header__bar header__bar2 d-xl-none d-block">
+          <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </div>
+
+        <a href="#"><img src="assets/img/logo2.svg" alt=""></a>
+        <div class="header__nav">
+          <ul class="d-none d-xl-flex product__ul">
+            <li><a href="#"><img src="assets/img/header_icon1.svg" alt=""> home</a></li>
+            <li><a href="#" class="nav__link"><img src="assets/img/header_icon2.svg" alt=""> produse <img src="assets/img/list_angle.svg" alt="" class="list_angles"></a>
+              <ul class="sub__menu">
+                <li><a href="#" class="sub_menu_list">SNACKS</a></li>
+                <li><a href="#" class="sub_menu_list">NAPOLITANE</a></li>
+                <li><a href="#" class="sub_menu_list">BISCUITI</a></li>
+                <li><a href="#" class="sub_menu_list">CEREALE</a></li>
+                <li><a href="#" class="sub_menu_list">CHIPSURI</a></li>
+                <li><a href="#" class="sub_menu_list">ENERGIZANT</a></li>
+                <li><a href="#" class="sub_menu_list">SUCURI NATURALE</a></li>
+                <li><a href="#" class="sub_menu_list">BERE</a></li>
+                <li><a href="#" class="sub_menu_list">ОТЕТ</a></li>
+                <li><a href="#" class="sub_menu_list">SOSURI</a></li>
+              </ul>
+            </li>
+            <li><a href="#"><img src="assets/img/header_icon3.svg" alt=""> companie</a></li>
+            <li><a href="#"><img src="assets/img/header_icon4.svg" alt=""> NOUTĂȚI</a></li>
+            <li><a href="#"><img src="assets/img/header_icon5.svg" alt=""> DISTRIBUIRE</a></li>
+            <li><a href="#"><img src="assets/img/header_icon6.svg" alt=""> MAGAZIN ONLINE</a></li>
+            <li><a href="#"><img src="assets/img/footer_phone.svg" alt=""> CONTACT</a></li>
+          </ul>
+          <div class="header__flag">
+            <a href="#"><img src="assets/img/flag1.svg" alt=""></a>
+            <a href="#"><img src="assets/img/flag2.svg" alt=""></a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ===================== HEADER AREA END ===================== -->
+
+  <!-- ===================== MAIN AREA START ===================== -->
+  <main class="overflow-hidden">
+    <!-- ===================== AROMA AREA START ===================== -->
+    <section id="aroma__area" class="aroma__area">
+      <div class="container">
+        <div class="aroma__wrap">
+          <div class="row g-3">
+            <div class="col-lg-6">
+              <div class="aroma__img" data-aos="fade-down" data-aos-delay="70"
+              data-aos-duration="1200">
+                <img src="assets/img/aroma_img.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="aroma__content" data-aos="fade-down" data-aos-delay="70"
+              data-aos-duration="1200">
+                <div class="aroma__title">
+                  <span>Pagina principală  /  Produse / Chipsuri / VIVA  Chips / VIVA Chips cu aromă de pui 100g</span>
+                  <h3>VIVA Chips cu aromă de pui 100g</h3>
+                </div>
+
+                <div class="aroma__list">
+                  <ul>
+                    <li>Greutate</li>
+                    <li>2 kg</li>
+                  </ul>
+                  <ul>
+                    <li>Buc./Bax</li>
+                    <li>20</li>
+                  </ul>
+                  <ul>
+                    <li>Buc./Palet</li>
+                    <li>560</li>
+                  </ul>
+                  <ul>
+                    <li>Aromă</li>
+                    <li>Pui
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>Ambalaj</li>
+                    <li>PUNGA</li>
+                  </ul>
+                </div>
+                <a href="#" class="btns"><img src="assets/img/cart.svg" alt=""> LOREM IPSUM DOLOR</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== AROMA AREA END ===================== -->
+
+    <!-- ===================== DESCRIERE AREA START ===================== -->
+    <section id="descriere__area" class="descriere__area">
+      <div class="container">
+        <div class="descriere__wrap">
+          <div class="row g-3">
+            <div class="col-md-9">
+              <div class="descriere__content" data-aos="fade-down" data-aos-delay="70"
+              data-aos-duration="1200">
+                <h3>Descriere</h3>
+                <p>Aliquam in bibendum mauris. Sed vitae erat vel velit blandit pharetra vitae nec ante. Cras at est augue. Cras ut interdum elit. Ut malesuada a urna sit amet blandit. Nullam nunc lorem, aliquam at eros laoreet, feugiat bibendum ligula. Aenean congue, massa id aliquet semper, ligula ante tristique nulla, quis posuere dui purus vel urna. Nullam varius, magna nec egestas convallis, orci ex tempus quam, id finibus arcu ipsum fringilla purus. Aenean dapibus suscipit eleifend. Aliquam vel ipsum eu lorem hendrerit iaculis vitae ut lorem. Suspendisse ullamcorper dolor faucibus sem auctor consequat. Ut luctus posuere auctor. Sed non molestie metus.</p>
+                <a href="#">Citește mai departe</a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="descriere__img" data-aos="fade-down" data-aos-delay="70"
+              data-aos-duration="1200">
+                <img src="assets/img/descrlere_img.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== DESCRIERE AREA END ===================== -->
+
+    <!-- ===================== VALORI AREA START ===================== -->
+    <section id="valori__area" class="valori__area" style="background-image: url('assets/img/interdum_bg.png');">
+      <div class="container">
+        <div class="valori__wrap">
+          <div class="valori__title" data-aos="fade-down" data-aos-delay="70"
+          data-aos-duration="1200">
+            <h3>Valori nutriționale</h3>
+            <span>Valori nutriționale medii pentru 100g produs</span>
+          </div>
+          <div class="valori__content" data-aos="fade-down" data-aos-delay="70"
+          data-aos-duration="1200">
+            <ul>
+              <li>Valoare energetică (Kj)</li>
+              <li>2272 Kj
+              </li>
+            </ul>
+            <ul>
+              <li>Valoare energetică (Kcal)
+              </li>
+              <li>544 Kcal
+              </li>
+            </ul>
+            <ul>
+              <li>Grăsimi
+              </li>
+              <li>31 g
+              </li>
+            </ul>
+            <ul>
+              <li>Din care acizi graşi saturaţi
+              </li>
+              <li>16 g
+              </li>
+            </ul>
+            <ul>
+              <li>Glucide
+              </li>
+              <li>60 g
+              </li>
+            </ul>
+            <ul>
+              <li>Din care zaharuri
+              </li>
+              <li>3 g
+              </li>
+            </ul>
+            <ul>
+              <li>Fibre
+              </li>
+              <li>2,5 g
+              </li>
+            </ul>
+            <ul>
+              <li>Proteine</li>
+              <li>5 g
+              </li>
+            </ul>
+            <ul>
+              <li>Sare</li>
+              <li>2,6 g</li>
+            </ul> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== VALORI AREA END ===================== -->
+
+    <!-- ===================== ALTE AREA START ===================== -->
+    <section id="alte__area" class="alte__area">
+      <div class="container">
+        <div class="alte__wrap">
+          <div class="alte__title" data-aos="fade-down" data-aos-delay="70"
+          data-aos-duration="1200">
+            <h3>Alte sortimente</h3>
+          </div>
+          <div class="alte__card">
+            <div class="alte__single__card" data-aos="fade-down" data-aos-delay="70"
+      data-aos-duration="1200">
+              <div class="alte__card__img">
+                <img src="assets/img/alte_img1.png" alt="">
+              </div>
+              <div class="alte__card__content">
+                <h6>Sare</h6>
+              </div>
+            </div>
+            <div class="alte__single__card" data-aos="fade-down" data-aos-delay="70"
+      data-aos-duration="1200">
+              <div class="alte__card__img">
+                <img src="assets/img/alte_img2.png" alt="">
+              </div>
+              <div class="alte__card__content">
+                <h6>Ardei</h6>
+              </div>
+            </div>
+            <div class="alte__single__card" data-aos="fade-down" data-aos-delay="70"
+      data-aos-duration="1200">
+              <div class="alte__card__img">
+                <img src="assets/img/alte_img3.png" alt="">
+              </div>
+              <div class="alte__card__content">
+                <h6>Smântână și Mărar</h6>
+              </div>
+            </div>
+            <div class="alte__single__card" data-aos="fade-down" data-aos-delay="70"
+      data-aos-duration="1200">
+              <div class="alte__card__img">
+                <img src="assets/img/alte_img4.png" alt="">
+              </div>
+              <div class="alte__card__content">
+                <h6>Pizza</h6>
+              </div>
+            </div>
+            <div class="alte__single__card" data-aos="fade-down" data-aos-delay="70"
+      data-aos-duration="1200">
+              <div class="alte__card__img">
+                <img src="assets/img/alte_img5.png" alt="">
+              </div>
+              <div class="alte__card__content">
+                <h6>Cașcaval</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== ALTE AREA END ===================== -->
+
+    <!-- ===================== PRODUSELE AREA START ===================== -->
+    <section id="produsele__area" class="produsele__area">
+      <div class="container">
+        <div class="produsele__wrap">
+          <div class="habitant__title produsele__title" data-aos="fade-down" data-aos-delay="70"
+          data-aos-duration="1200">
+            <h1>Categorii</h1>
+            <div class="title__content">
+            <h6>Vestibulum at eros </h6>
+            <h2>Produsele noastre</h2>
+            </div>
+          </div>
+
+          <div class="produsele__cards produsele__cards2 owl-carousel owl-theme" data-aos="fade-down" data-aos-delay="70"
+          data-aos-duration="1200">
+            <div class="produsele__single__card">
+              <div class="produsele__card__img">
+                <img src="assets/img/produsele_img1.png" alt="">
+              </div>
+              <div class="produsele__card__content">
+                <h5>Snacks</h5>
+                <p>Integer ac interdum lacus. Nunc porta semper lacus a varius. Pellentesque</p>
+              </div>
+            </div>
+            <div class="produsele__single__card">
+              <div class="produsele__card__img">
+                <img src="assets/img/produsele_img2.png" alt="">
+              </div>
+              <div class="produsele__card__content">
+                <h5>Napolitane</h5>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac</p>
+              </div>
+            </div>
+            <div class="produsele__single__card">
+              <div class="produsele__card__img">
+                <img src="assets/img/produsele_img3.png" alt="">
+              </div>
+              <div class="produsele__card__content">
+                <h5>Cereale</h5>
+                <p>Nunc sagittis v velit, ac gravida nunc gravida et. Vestibulum at eros imperdiet</p>
+              </div>
+            </div>
+            <div class="produsele__single__card">
+              <div class="produsele__card__img">
+                <img src="assets/img/produsele_img1.png" alt="">
+              </div>
+              <div class="produsele__card__content">
+                <h5>Snacks</h5>
+                <p>Integer ac interdum lacus. Nunc porta semper lacus a varius. Pellentesque</p>
+              </div>
+            </div>
+            <div class="produsele__single__card">
+              <div class="produsele__card__img">
+                <img src="assets/img/produsele_img3.png" alt="">
+              </div>
+              <div class="produsele__card__content">
+                <h5>Cereale</h5>
+                <p>Nunc sagittis v velit, ac gravida nunc gravida et. Vestibulum at eros imperdiet</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== PRODUSELE AREA END ===================== -->
+
+    <!-- ===================== NOASTRE AREA START ===================== -->
+    <section id="noastre__area" class="noastre__area noastre__area2">
+      <div class="container">
+        <div class="noastre__wrap">
+          <div class="noastre__content">
+            <div class="noastre__user">
+              <img src="assets/img/noastre_user.png" alt="">
+              <h6>Dorești să vinzi produsele noastre?</h6>
+            </div>
+            <a href="#" class="btns">CONTACTEAZĂ-NE ACUM</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== NOASTRE AREA END ===================== -->
+  </main>
+  <!-- ===================== MAIN AREA END ===================== -->
+
+  <!-- ===================== FOOTER AREA START ===================== -->
+  <footer id="footer__area" class="footer__area">
+    <div class="container">
+      <div class="footer__wrap">
+        <div class="footer__logo__social">
+          <a href="#"><img src="assets/img/logo.svg" alt=""></a>
+          <p>European Food, unul dintre cei mai mari producători de produse alimentare din S-E Europei şi una dintre cele mai mari investiţii private suedeze din România</p>
+          <div class="footer__social">
+            <a href="#"><img src="assets/img/footer_facebook.svg" alt=""></a>
+            <a href="#"><img src="assets/img/footer_instagram.svg" alt=""></a>
+            <a href="#"><img src="assets/img/footer_linkedin.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="row g-3">
+          <div class="col-xl-4 col-md-6">
+            <div class="footer__contact">
+              <div class="footer__single__contact">
+                <h6>COMENZI ȘI LIVRARE</h6>
+                <div class="footer__main__contact">
+                  <a href="#"><img src="assets/img/location.svg" alt="">Str. Teatrului Nr. 1-2, 410020 Oradea, Bihor, Romania</a>
+                  <a href="tel:40259333674"><img src="assets/img/footer_phone.svg" alt="">+40 259 333 674</a>
+                </div>
+              </div>
+              <div class="footer__single__contact">
+                <h6>Export</h6>
+                <div class="footer__main__contact">
+                  <a href="tel:40259407209"><img src="assets/img/footer_phone.svg" alt="">+40 259 407 209</a>
+                  <a href="mailto:export@europeanfood.ro"><img src="assets/img/footer_phone.svg" alt="">export@europeanfood.ro</a>
+                </div>
+              </div>
+              <div class="footer__single__contact">
+                <h6>Export</h6>
+                <div class="footer__main__contact">
+                  <a href="tel:40259407209"><img src="assets/img/footer_mail.svg" alt="">+40 259 407 209</a>
+                  <a href="mailto:marketing@europeanfood.ro"><img src="assets/img/footer_mail.svg" alt="">marketing@europeanfood.ro</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div class="footer__list">
+              <div class="footer__single__list">
+                <h6>europeanfood.ro</h6>
+                <ul>
+                  <li><a href="#">home</a></li>
+                  <li><a href="#">ULTIMELE ȘTIRI</a></li>
+                  <li><a href="#">COMPANIE</a></li>
+                  <li><a href="#">DISTRIBUTIE</a></li>
+                  <li><a href="#">NOUTATI</a></li>
+                  <li><a href="#">MAGAZIN ONLINE</a></li>
+                  <li><a href="#">CONTACT</a></li>
+                </ul>
+              </div>
+              <div class="footer__single__list">
+                <h6>LEGAL</h6>
+                <ul>
+                  <li><a href="#">A.N.P.C.</a></li>
+                  <li><a href="#">Termeni șI condiții</a></li>
+                  <li><a href="#">Confidențialitate</a></li>
+                  <li><a href="#">Politica cookie</a></li>
+                  <li><a href="#">Autorizatie de mediu</a></li>
+                  <li><a href="#">Raport de mediu 2019</a></li>
+                  <li><a href="#">Raport de mediu 2018</a></li>
+                  <li><a href="#">Raport de mediu 2020</a></li>
+                  <li><a href="#">Raport de mediu 2021</a></li>
+                  <li><a href="#">Viza anuala</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-12">
+            <div class="footer__card">
+              <h6>NOUTĂȚI</h6>
+              <div class="footer__single__card">
+                <img src="assets/img/footer_img1.png" alt="">
+                <div class="footer__card__content">
+                  <h6>Deschidere oficială</h6>
+                  <p>Aliquam faucibus, odio nec commodo aliquam, neque felis placerat dui, a porta ante lectus dapibus est. Aliquam a bibendum mi, sed condimentum est. Mauris</p>
+                </div>
+              </div>
+              <div class="footer__single__card">
+                <img src="assets/img/footer_img2.png" alt="">
+                <div class="footer__card__content">
+                  <h6>Lansare magazin online: Shopius.ro</h6>
+                  <p>Arcu odio, vestibulum quis dapibus sit amet, finibus id turpis. Aliquam semper fringilla semper. Sed nec velit sit amet dolor pulvinar feugiat. Suspendisse blandit, </p>
+                </div>
+              </div>
+              <div class="footer__single__card">
+                <img src="assets/img/footer_img3.png" alt="">
+                <div class="footer__card__content">
+                  <h6>Expozitie Paris</h6>
+                  <p>Sed interdum egestas, nibh ex maximus arcu, non posuere sem nulla in augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <span>2021 © Toate drepturile rezervate. European Food</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ===================== FOOTER AREA END ===================== -->
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/app.js"></script>
+
+
+  <script>
+    AOS.init();
+    // data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"
+    AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: "aos-init", // class applied after initialization
+      animatedClassName: "aos-animate", // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 400, // values from 0 to 3000, with step 50ms
+      easing: "ease", // default easing for AOS animations
+      once: true, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+    });
+  </script>
+</body>
+
+</html>
